@@ -1,0 +1,12 @@
+.loader_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #051635, #0b3d91);
+}
+
+.loader {
+    width: 100px;
+}

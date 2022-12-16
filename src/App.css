@@ -1,0 +1,12 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+  background: linear-gradient(to right, #051635, #0b3d91);
+  color: black;
+  height: 100%;
+  width: 100%;
+}

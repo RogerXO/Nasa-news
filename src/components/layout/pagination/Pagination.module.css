@@ -1,0 +1,29 @@
+.pagination_div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1%;
+}
+
+.pagination_button {
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.pagination_button:hover{
+    background-color: rgb(241, 163, 151);
+}
+
+.select_div{
+    margin: 15px 0px 0px 10px ;
+    color: white;
+}
+
+.select_div select{
+    padding: 6px;
+    border-radius: 10px;
+    border: 1px solid rgb(252 61 33);
+}
