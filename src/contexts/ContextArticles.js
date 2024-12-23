@@ -6,7 +6,7 @@ export const ArticlesProvider = ({ children }) => {
     const [provideArticles, setProvideArticles] = useState([])
 
     const fetchArticles = () => {
-        fetch("https://api.spaceflightnewsapi.net/v3/articles?_limit=30", {
+        fetch("https://api.spaceflightnewsapi.net/v4/articles/?limit=50", {
             method: "GET",
             headers: {
                 "content-type": "application/json"
